@@ -1,0 +1,92 @@
+
+@font-face{
+   font-family:font;
+   src: url(12458.tff);
+}
+body{
+	font-family: font;
+}
+
+}
+.center{
+	width: 1200px;
+	margin-right: auto;
+	margin-left: auto;
+}
+.header{
+	height: 100px;
+}
+    .logo{
+  border-radius: 50%;
+  width: 100px;
+}
+.banner{
+	height: 400px;
+	background-color: blue;
+}
+.veg_block{
+	height: 400px;
+	width: 400px;
+	background-image: url(vegan.png);
+	background-size: 100% 100%
+}
+.english_block{
+	height: 400px;
+	width: 700px;
+	background-size:100% 100%;
+	background-image: url(english.png);
+}
+.eco_block{
+	height: 400px;
+	width: 400px;
+	background-size:100% 100%;
+	background-image: url(bio.png);
+}
+.banner_h2{
+	color: white;
+	text-align: center;
+	font-size: 30px;
+	margin-top: 50px;
+}
+.banner_h2:hover{
+	color: orange;
+	font-size: 40px;
+}
+
+.flex{
+	display: flex
+}
+.history{
+	padding-bottom: 30px;
+	padding-top: 30px;
+}
+.history_img{
+	width: 500px;
+	margin-right: 50px;
+}
+.menu{
+	padding-bottom: 50px;
+	padding-top: 50px;
+	background-color: pink;
+}
+.gallery{
+	padding-bottom: 50px;
+	padding-top: 50px;
+	background-color: grey;
+}
+.footer{
+	background-color: purple;
+	height: 200px;
+}
+.food{
+	height: 300px;
+	color: orange;
+	margin-left: 50px;
+	margin-top: 20px;
+}
+.img_food{
+	width: 250px;
+}
+.help{
+
+}
